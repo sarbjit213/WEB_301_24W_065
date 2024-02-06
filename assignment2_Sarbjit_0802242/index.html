@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTS sARBJIT-pORTFOLIO</title>
+    <style>
+        body {
+            margin:auto;
+            padding: 0%;
+            font-family:  'Times New Roman', Times, serif; 
+
+            background-color: #f2f2f2; /* Default background color */
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #084e80; /* Header background color */
+        }
+
+        header h2 {
+            color: #fff; 
+        }
+
+        section {
+            padding: 16px;
+        }
+
+        .Project {
+            margin-bottom: 20px;
+        }
+
+        .Project img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #084e80; 
+            color: #eceef0; 
+        }
+
+        @media screen and (min-width: 601px) {
+            /* Mobile style */
+            header {
+                padding: 30px;
+            }
+
+            section {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .Project {
+                width: 45%;
+            }
+        }
+
+        @media screen and (min-width: 1025px) {
+            /* Desktop style */
+            header, section, footer {
+                padding: 40px;
+            }
+
+            body {
+                background-color: #ebf3f5; 
+            }
+
+            .Project {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Sarbjit</h2>
+    </header>
+
+    <section>
+        <div class="Project">
+            <h3>Our Class Projects</h3>
+            <p> In semester third, we had a project of Agile Project management, where we  had done a presentation on client expectations. It was an amazing experience, had done sprint planning, wireframes & summaries. </p>
+            <img src="sarbj.png" alt="Project 1 Image">
+            <img src="sarbj01.png" alt="Project 1 Image">
+        </div>
+
+        <div class="Project">
+            <h3>Another one</h3>
+            <p>This one was of my favorite professor, he has excellent skills in c#, we had amazing projects in MVC Controller.</p>
+            <img src="asp.png" alt="Project 1 Image">
+            <img src="aspnet.png" alt="Project 1 Image">
+        </div>
+
+    
+    </section>
+
+    <section id="contact">
+        <h2> My Contact</h2>
+        <p>Email: W0802242@myscc.ca</p>
+        <p>Social Media: <a href="#">Instagram</a>, <a href="#">Snapchat </a></p>
+    </section>
+
+    <footer>
+        &copy; 2024 Sarbjit
+    </footer>
+</body>
+</html>
