@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(224, 224, 35); 
+}
+
+#container {
+    overflow: hidden;
+    width: 100%;
+}
+
+#swipable {
+    display: flex;
+    overflow-x: auto;
+}
+
+.item {
+    flex: 0 0 auto;
+    width: 70%;
+    padding: 20px;
+    border: 2px solid brown;
+    text-align: center;
+    font-size: 16px;
+}
+
+.item img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: #b5d3e7; /* Tablet background color */
+    }
+
+    .item {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    body {
+        background-color: #f0f0f0; /* Desktop background color */
+    }
+
+    
+}
