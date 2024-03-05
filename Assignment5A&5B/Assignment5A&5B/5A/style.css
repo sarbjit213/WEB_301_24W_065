@@ -1,0 +1,39 @@
+/* form styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+/* Swiper container styles */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* media queries for responsive background colours */
+@media (max-width: 600px) {
+    body {
+        background-color: #abcdef; /* mobile screen color*/
+    }
+}
+
+@media (min-width: 601px) {
+    body {
+        background-color: #fedcba /* desktop screen color */
+    }
+}
